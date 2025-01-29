@@ -1,6 +1,6 @@
 //(c) A+ Computer Science
 //www.apluscompsci.com
-//Name Kenedi Carson
+//Name- Kenedi Carson
 
 //Import needed utilities
 import java.util.Queue;
@@ -20,7 +20,7 @@ public class ArrayReduction{
 		    pq.add(obj);
 		    
 		    }
-		  
+		//So long as the PriorityQueue has two or more objects, the loop continues and the minCost updates according to the criiteria.
 		while(pq.size() > 1){
 		    sum = 0;
 		    sum += pq.remove();
@@ -30,7 +30,7 @@ public class ArrayReduction{
 		}
 		return minCost;	
 	}
-	
+	//Main method
 	public static void main( String[] args ){
 		int[] s0 = {212};
 		System.out.println( ArrayReduction.min_cost(s0));
