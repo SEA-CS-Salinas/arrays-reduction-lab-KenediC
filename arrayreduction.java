@@ -7,7 +7,7 @@ import java.util.Queue;
 import java.util.PriorityQueue;
 import java.util.LinkedList;
 
-public class arrayreduction{
+public class ArrayReduction{
     /*min_cost() method- Uses a PriotityQueue in order to determine the min cost of the array.
     @param int[] r
     @return int minCount*/
